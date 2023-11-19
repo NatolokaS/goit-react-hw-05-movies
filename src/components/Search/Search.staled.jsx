@@ -9,7 +9,7 @@ export const SearchbarStyle = styled.header`
   justify-content: center;
   align-items: center;
   min-height: 64px;
-  padding-right: 840px;
+  padding-right: 640px;
   padding-left: 24px;
   padding-top: 2px;
   padding-bottom: 2px;
