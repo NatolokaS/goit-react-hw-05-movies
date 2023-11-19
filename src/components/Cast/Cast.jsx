@@ -5,6 +5,7 @@ import { Loader } from 'components/Loader/Loader';
 import { HeaderStyled, NavStyled } from './Cast.styled';
 
 const endPoint = '/movie';
+const defaultImage = 'https://texty.org.ua/media/images/357130486_651443390347614_3599390347963367785.width-1000.jpg';
 
 const Cast = () => {
   const { movieId } = useParams();
@@ -36,7 +37,7 @@ const Cast = () => {
                 src={
                   profile_path
                     ? `http://image.tmdb.org/t/p/w185${profile_path}`
-                    : 'https://www.braasco.com//ASSETS/IMAGES/ITEMS/ZOOM/no_image.jpeg'
+                    : defaultImage
                 }
                 alt={name}
                 width="100"
