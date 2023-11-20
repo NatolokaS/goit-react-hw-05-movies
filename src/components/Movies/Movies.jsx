@@ -13,7 +13,7 @@ const Movies = ({ films }) => {
               src={
                 poster_path
                   ? `http://image.tmdb.org/t/p/w154${poster_path}`
-                  : 'https://www.braasco.com//ASSETS/IMAGES/ITEMS/ZOOM/no_image.jpeg'
+                  : 'http://pro-biznes.com.ua/media/article-128_2.jpg'
               }
               alt={title}
             />
